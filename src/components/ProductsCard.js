@@ -38,6 +38,6 @@ export const ProductsCard = forwardRef(({product},ref) => {
 </div>
 
   return <div>
-      {ref?<div ref={ref} >{content}</div>:content}
+      {ref?(<div ref={ref} >{content}</div>):content}
     </div>
 })
